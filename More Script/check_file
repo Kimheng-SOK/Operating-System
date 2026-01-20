@@ -1,0 +1,12 @@
+#!/bin/bash
+file_path=$1
+if [ -e "$file_path" ]; then
+	echo "$file_path password are enabled"
+	if [ -w "$file_path" ]; then 
+		echo "you have permission to edit this $file_path"
+	else 
+		echo "you do NOT have permission to edit this $file_path"
+	fi
+else 
+	echo "$file_path not exists!"
+fi 
