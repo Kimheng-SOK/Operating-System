@@ -1,0 +1,6 @@
+total 20
+-rwxrwxr-x 1 kimheng kimheng 16176 Feb  4 15:11 forkchild
+-rw-rw-r-- 1 kimheng kimheng   509 Feb  4 15:11 forkchild.c
+-rw-rw-r-- 1 kimheng kimheng     0 Feb  4 15:13 result_forkchild.txt
+Parent process waiting for child...
+Child finished.

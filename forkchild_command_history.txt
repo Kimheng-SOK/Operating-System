@@ -1,0 +1,15 @@
+ 1420  git checkout -b class_activity1
+ 1421  git push origin class_activity1
+ 1422  cd .. 
+ 1423  mkdir class_activity2
+ 1424  cd class_activity2
+ 1425  ls
+ 1426  clear
+ 1427  nano forkchild.c
+ 1428  gcc forkchild.c -o forkchild
+ 1429  ./forkchild 
+ 1430  touch result_forkchild.txt
+ 1431  ./forkchild > result_forkchild.txt 
+ 1432  history
+ 1433  clear
+ 1434  history | tail -n 15 >> forkchild_command_history.txt
