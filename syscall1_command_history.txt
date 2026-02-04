@@ -1,0 +1,50 @@
+ 1360  clear
+ 1361  cd ../TP10/
+ 1362  nano testS2
+ 1363  ls -l
+ 1364  chmod +x testS2 
+ 1365  ls -l
+ 1366  clear
+ 1367  ./testS2 
+ 1368  nano testS2 
+ 1369  ./testS2 2
+ 1370  ./testS2 2 2
+ 1371  clear
+ 1372  nano testS2 
+ 1373  ./testS2 
+ 1374  ./testS2 2 3
+ 1375  nano testS2 
+ 1376  nano testS2 2 3
+ 1377  nano testS2
+ 1378  ./testS2 2 3
+ 1379  nano testS2
+ 1380  ./testS2 2 3
+ 1381  nano testS2
+ 1382  ./testS2 2 3
+ 1383  nano testS2
+ 1384  ./testS2 2 3
+ 1385  nano testS2
+ 1386  ./testS2 2 3
+ 1387  ./testS2 
+ 1388  ./testS2 ls
+ 1389  nano testS2
+ 1390  ./testS2 2 3
+ 1391  nano testS2
+ 1392  ./testS2 2 3
+ 1393  ./testS2
+ 1394  clear
+ 1395  mkdir class_activity1
+ 1396  nano syscall1.c
+ 1397  nano result.txt
+ 1398  gcc syscall1.c -o syscall1
+ 1399  ./syscall1 
+ 1400  nano syscall1
+ 1401  nano syscall1.c
+ 1402  touch copyresult.txt
+ 1403  nano syscall1
+ 1404  nano syscall1.c
+ 1405  ./syscall1 
+ 1406  gcc syscall1.c -o syscall1
+ 1407  ./syscall1 
+ 1408  history
+ 1409  history | tail -n 50 >> syscall1_command_history.txt
