@@ -1,0 +1,9 @@
+#!/bin/bash
+name="$1"
+if [ -f "$name" ]; then
+	echo "$name is a regular"
+elif [ -d "$name" ]; then 
+	echo "$name is a directory"
+else 
+	echo "$name is another type of file"
+fi

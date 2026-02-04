@@ -1,0 +1,5 @@
+#!/bin/bash
+a=2
+b=3
+div=$(echo "$a/$b" | bc -l)
+echo "$a / $b = $div"
