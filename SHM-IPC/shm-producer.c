@@ -19,7 +19,7 @@ int main()
 
     /* strings written to shared memory */
     const char *message_0 = "Hello";
-    const char *message_1 = "SokLypheng!";
+    const char *message_1 = "Sok Kimheng!";
 
     /* shared memory file descriptor */
     int shm_fd;
