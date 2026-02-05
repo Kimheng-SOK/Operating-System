@@ -1,6 +1,8 @@
 #include <windows.h>
 #include <stdio.h>
 
+#define N 5
+
 DWORD WINAPI worker(LPVOID param) {
     int id = (int)(intptr_t)param;
     printf("Thread %d running (tid=%lu)\n", id, GetCurrentThreadId());
@@ -9,7 +11,6 @@ DWORD WINAPI worker(LPVOID param) {
 }
 
 int main() {
-    const int N = 5;
     HANDLE threads[N];
 
     for (int i = 0; i < N; i++) {
